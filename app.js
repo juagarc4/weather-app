@@ -1,3 +1,4 @@
+require('dotenv').config()
 require('colors')
 const { inquirerMenu, pause, readInput } = require('./helpers/inquirer')
 const Searches = require('./helpers/models/searches')
